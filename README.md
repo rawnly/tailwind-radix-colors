@@ -37,7 +37,7 @@ It uses tailwind to apply the `Dark` version of a radix color palette when in da
 		Click Me
 	</button>
 
-	<!-- Will becoem -->
+	<!-- becomes -->
 
 	<button class="rx-text-bronze-11 rx-bg-bronze-3 hover:rx-bg-bronze-4">
 		Click Me
