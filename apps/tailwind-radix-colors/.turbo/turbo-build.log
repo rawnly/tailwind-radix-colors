@@ -1,3 +1,3 @@
-[35mtailwind-radix-colors:build: [0mcache hit, replaying output [2m4764060461b37ec3[0m
+[35mtailwind-radix-colors:build: [0mcache hit, replaying output [2mfa0bad17c97c5368[0m
 [35mtailwind-radix-colors:build: [0m$ swc src -d dist
-[35mtailwind-radix-colors:build: [0mSuccessfully compiled: 4 files with swc (26.5ms)
+[35mtailwind-radix-colors:build: [0mSuccessfully compiled: 4 files with swc (7.69ms)
