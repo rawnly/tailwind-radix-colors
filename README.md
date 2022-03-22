@@ -1,5 +1,5 @@
 # TailwindCSS Radix Colors
-> A simple tailwind plugin to  add and simplify [radix colors][radix-colors] palettes in TailwidCSS
+> A simple tailwind plugin to  add and simplify [radix colors][radix-colors] palettes in [TailwidCSS][tailwind]
 
 ## Installation
 
@@ -36,7 +36,7 @@ In your `tailwind.config.js`
 
 ## How?
 It uses tailwind to apply the `Dark` version of a radix color palette when in darkmode. Code example below:
-
+> Check out the [docs](apps/docs) to see a [real example][preview]
 
 ```html
 	<button class="text-bronze-11 bg-bronze-3 hover:bg-bronze-4 dark:text-bronze-11 dark:bg-bronze-3 dark:hover:bg-bronze-4">
@@ -51,3 +51,5 @@ It uses tailwind to apply the `Dark` version of a radix color palette when in da
 ```
 
 [radix-colors]: https://radix-ui.com/colors
+[tailwind]: https://tailwindcss.com
+[preview]: https://tailwind-radix.fedevitale.dev
