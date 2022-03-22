@@ -2,6 +2,12 @@
 > A simple tailwind plugin to  add and simplify [radix colors][radix-colors] palettes in TailwidCSS
 
 ## Installation
+
+```sh
+	yarn add tailwind-radix-colors
+```
+
+## Usage
 In your `tailwind.config.js`
 
 ```js
