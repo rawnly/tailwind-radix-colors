@@ -1,0 +1,78 @@
+[32mdocs:build: [0mcache hit, replaying output [2mb15a0e45db4e83ce[0m
+[32mdocs:build: [0m$ next build
+[32mdocs:build: [0minfo  - Checking validity of types...
+[32mdocs:build: [0mwarn  - No ESLint configuration detected. Run next lint to begin setup
+[32mdocs:build: [0minfo  - Creating an optimized production build...
+[32mdocs:build: [0mFailed to compile.
+[32mdocs:build: [0m
+[32mdocs:build: [0m./src/tailwind.css.webpack[javascript/auto]!=!../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[1]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./src/tailwind.css
+[32mdocs:build: [0mTypeError: Cannot convert undefined or null to object
+[32mdocs:build: [0m    at Function.entries (<anonymous>)
+[32mdocs:build: [0m    at Object.toTailwindColors (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/lib/format.js:17:19)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/radix-tailwind.js:10:27)
+[32mdocs:build: [0m    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+[32mdocs:build: [0m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+[32mdocs:build: [0m    at Module.load (node:internal/modules/cjs/loader:975:32)
+[32mdocs:build: [0m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[32mdocs:build: [0m    at Module.require (node:internal/modules/cjs/loader:999:19)
+[32mdocs:build: [0m    at require (node:internal/modules/cjs/helpers:102:18)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/docs/tailwind.config.js:1:23)
+[32mdocs:build: [0m
+[32mdocs:build: [0mImport trace for requested module:
+[32mdocs:build: [0m./src/tailwind.css
+[32mdocs:build: [0m./src/pages/_app.tsx
+[32mdocs:build: [0m
+[32mdocs:build: [0m./src/tailwind.css
+[32mdocs:build: [0mTypeError: Cannot convert undefined or null to object
+[32mdocs:build: [0m    at Function.entries (<anonymous>)
+[32mdocs:build: [0m    at Object.toTailwindColors (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/lib/format.js:17:19)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/radix-tailwind.js:10:27)
+[32mdocs:build: [0m    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+[32mdocs:build: [0m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+[32mdocs:build: [0m    at Module.load (node:internal/modules/cjs/loader:975:32)
+[32mdocs:build: [0m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[32mdocs:build: [0m    at Module.require (node:internal/modules/cjs/loader:999:19)
+[32mdocs:build: [0m    at require (node:internal/modules/cjs/helpers:102:18)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/docs/tailwind.config.js:1:23)
+[32mdocs:build: [0m    at tryRunOrWebpackError (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:41704:9)
+[32mdocs:build: [0m    at __webpack_require_module__ (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27321:12)
+[32mdocs:build: [0m    at __nested_webpack_require_152432__ (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27278:18)
+[32mdocs:build: [0m    at /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27349:20
+[32mdocs:build: [0m    at symbolIterator (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/neo-async/async.js:1:14443)
+[32mdocs:build: [0m    at done (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/neo-async/async.js:1:14823)
+[32mdocs:build: [0m    at Hook.eval [as callAsync] (eval at create (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:140346:10), <anonymous>:15:1)
+[32mdocs:build: [0m    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:140148:14)
+[32mdocs:build: [0m    at /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27256:43
+[32mdocs:build: [0m    at symbolIterator (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/neo-async/async.js:1:14401)
+[32mdocs:build: [0m-- inner error --
+[32mdocs:build: [0mTypeError: Cannot convert undefined or null to object
+[32mdocs:build: [0m    at Function.entries (<anonymous>)
+[32mdocs:build: [0m    at Object.toTailwindColors (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/lib/format.js:17:19)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/tailwind-radix-colors/dist/radix-tailwind.js:10:27)
+[32mdocs:build: [0m    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+[32mdocs:build: [0m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+[32mdocs:build: [0m    at Module.load (node:internal/modules/cjs/loader:975:32)
+[32mdocs:build: [0m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[32mdocs:build: [0m    at Module.require (node:internal/modules/cjs/loader:999:19)
+[32mdocs:build: [0m    at require (node:internal/modules/cjs/helpers:102:18)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/apps/docs/tailwind.config.js:1:23)
+[32mdocs:build: [0m    at Object.<anonymous> (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[1]!/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!/Users/federicovitale/Developer/experiments/t-r-c/apps/docs/src/tailwind.css:1:7)
+[32mdocs:build: [0m    at /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:90227:11
+[32mdocs:build: [0m    at Hook.eval [as call] (eval at create (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:140332:10), <anonymous>:7:1)
+[32mdocs:build: [0m    at Hook.CALL_DELEGATE [as _call] (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:140144:14)
+[32mdocs:build: [0m    at /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27323:39
+[32mdocs:build: [0m    at tryRunOrWebpackError (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:41699:7)
+[32mdocs:build: [0m    at __webpack_require_module__ (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27321:12)
+[32mdocs:build: [0m    at __nested_webpack_require_152432__ (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27278:18)
+[32mdocs:build: [0m    at /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/webpack/bundle5.js:27349:20
+[32mdocs:build: [0m    at symbolIterator (/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/compiled/neo-async/async.js:1:14443)
+[32mdocs:build: [0m
+[32mdocs:build: [0mGenerated code for /Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[1]!/Users/federicovitale/Developer/experiments/t-r-c/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!/Users/federicovitale/Developer/experiments/t-r-c/apps/docs/src/tailwind.css
+[32mdocs:build: [0m
+[32mdocs:build: [0mImport trace for requested module:
+[32mdocs:build: [0m./src/pages/_app.tsx
+[32mdocs:build: [0m
+[32mdocs:build: [0m
+[32mdocs:build: [0m> Build failed because of webpack errors
+[32mdocs:build: [0merror Command failed with exit code 1.
+[32mdocs:build: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
