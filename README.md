@@ -19,7 +19,11 @@ In your `tailwind.config.js`
 			},
 		},
 		plugins: [
-			tailwindRadix.plugin
+			// plugin options are optional!
+			tailwindRadix.plugin({
+				prefix: 'rx', // default: rx
+				properties: ['bg', 'text', 'border' ] // default: ['bg', 'shadow', 'ring', 'border', 'text' ]
+			})
 		],
 	}
 ```

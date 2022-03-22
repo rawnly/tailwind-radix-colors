@@ -1,5 +1,7 @@
 .vercel
 .DS_Store
 node_modules
-dist
-.next
+
+apps/**/dist
+apps/**/.next
+apps/**/.turbo
