@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind variants;
+@tailwind components;
+
+
+a {
+	@apply underline rx-text-lime-11;
+}

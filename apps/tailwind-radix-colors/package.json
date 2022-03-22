@@ -1,0 +1,10 @@
+{
+  "name": "tailwind-radix-colors",
+  "version": "0.0.1",
+  "main": "radix-tailwind.js",
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "tailwindcss": "^3.0.23"
+  }
+}
