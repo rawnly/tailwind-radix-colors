@@ -1,4 +1,4 @@
-[32mdocs:build: [0mcache hit, replaying output [2m2f3fb4b7f67ada6b[0m
+[32mdocs:build[0m: cache hit, replaying output [2md0738732d689ba5a[0m
 [32mdocs:build: [0m$ next build
 [32mdocs:build: [0minfo  - Checking validity of types...
 [32mdocs:build: [0mwarn  - No ESLint configuration detected. Run next lint to begin setup
@@ -10,15 +10,15 @@
 [32mdocs:build: [0minfo  - Finalizing page optimization...
 [32mdocs:build: [0m
 [32mdocs:build: [0mPage                                       Size     First Load JS
-[32mdocs:build: [0m┌ ○ /                                      5.43 kB        76.4 kB
-[32mdocs:build: [0m├   /_app                                  0 B            70.9 kB
-[32mdocs:build: [0m└ ○ /404                                   2.73 kB        73.7 kB
-[32mdocs:build: [0m+ First Load JS shared by all              70.9 kB
+[32mdocs:build: [0m┌ ○ /                                      5.23 kB        77.2 kB
+[32mdocs:build: [0m├   /_app                                  0 B              72 kB
+[32mdocs:build: [0m└ ○ /404                                   2.73 kB        74.7 kB
+[32mdocs:build: [0m+ First Load JS shared by all              72 kB
 [32mdocs:build: [0m  ├ chunks/framework-39ef0a24cced4e18.js   42 kB
-[32mdocs:build: [0m  ├ chunks/main-d023307574cbd166.js        27.6 kB
-[32mdocs:build: [0m  ├ chunks/pages/_app-ed92cc35e422000a.js  496 B
+[32mdocs:build: [0m  ├ chunks/main-cb072575b10d8f27.js        28.6 kB
+[32mdocs:build: [0m  ├ chunks/pages/_app-427c001e4802b99b.js  495 B
 [32mdocs:build: [0m  ├ chunks/webpack-69bfa6990bb9e155.js     769 B
-[32mdocs:build: [0m  └ css/70ed6dfb8a846426.css               4.18 kB
+[32mdocs:build: [0m  └ css/f79ceb463c690252.css               4.19 kB
 [32mdocs:build: [0m
 [32mdocs:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
 [32mdocs:build: [0m

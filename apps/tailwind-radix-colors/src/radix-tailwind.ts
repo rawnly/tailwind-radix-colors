@@ -19,11 +19,11 @@ export const plugin = twPlugin.withOptions<Options>( ( options = {} ) =>
 		const utilities = Object.keys( radixColors )
 			.filter( color => !( /Dark|A|black|white$/.test( color ) ) )
 			.reduce( ( acc, colorName ) => {
-				const colorStyles = Array.from( new Array( 11 ) ).reduce( ( acc, _, idx ) => {
+				const colorStyles = Array.from( new Array( 12 ) ).reduce( ( acc, _, idx ) => {
 					const value = idx + 1
 
 					const valueStyles = properties.reduce( ( acc, prop ) => {
-						const key = e( `${prefix}-${prop}-${colorName}-${value}` ) // {rx}-{text}-{bronze}-{11}
+						const key = e( `${prefix}-${prop}-${colorName}-${value}` ) // {rx}-{text}-{bronze}-{12}
 						const color = {
 							light: theme( `colors.${colorName}.${value}` ),
 							dark: theme( `colors.${colorName}Dark.${value}` ),

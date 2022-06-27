@@ -37,7 +37,6 @@ const Page: NextPage<PageProps> = _ => {
 				<div className="text-center">
 					<h1 className="tracking-tight font-extrabold rx-text-olive-11">
 						<span className="block text-4xl sm:text-5xl md:text-6xl xl:inline rx-text-olive-11">Tailwind + Radix Colors</span>{' '}
-						{/* <span className="block text-2xl sm:text-3xl md:text-5xl xl:inline rx-text-olive-9">Try it now</span> */}
 					</h1>
 					<p className="mt-3 max-w-md mx-auto text-base rx-text-olive-11 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 						{/* Describe the package */}
