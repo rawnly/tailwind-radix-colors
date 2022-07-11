@@ -28,7 +28,7 @@ In your `tailwind.config.js`
 			// plugin options are optional!
 			tailwindRadix.plugin({
 				prefix: 'rx', // default: rx
-				properties: ['bg', 'text', 'border' ] // default: ['bg', 'shadow', 'ring', 'border', 'text' ]
+				properties: ['bg', 'text', 'border' ], // default: ['bg', 'shadow', 'ring', 'border', 'text' ]
 			})
 		],
 	}
