@@ -1,6 +1,6 @@
 {
   "name": "tailwind-radix-colors",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/radix-tailwind.js",
   "license": "MIT",
   "private": false,
