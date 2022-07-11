@@ -1,11 +1,11 @@
 const tailwindRadix = require('tailwind-radix-colors')
 
-const generateColor = (name, color) => ({
-  [name]: tailwindRadix.colors[color],
-  [`${name}Dark`]: tailwindRadix.colors[`${color}Dark`],
-})
 
-const primaryColors = generateColor('primary', 'amber')
+const primaryColors = {
+  ...tailwindRadix.createAlias('primary', 'blue'),
+  ...tailwindRadix.createAlias('neutral', 'mauve'),  
+}
+
 console.log(primaryColors)
 
 
@@ -23,6 +23,7 @@ module.exports = {
   },
   plugins: [
     tailwindRadix.plugin({
+      debug: true,
       colors: {
         ...tailwindRadix.colors,
         ...primaryColors,

@@ -14,6 +14,7 @@ export type Options = {
 	prefix?: string
 	properties?: string[]
 	colors?: ColorType;
+	debug?: boolean
 }
 
 export const createAlias = (name: string, color: keyof ColorType) => ({
@@ -26,7 +27,8 @@ export const plugin = twPlugin.withOptions<Options>( ( options = {} ) =>
 		const {
 			prefix = 'rx',
 			properties = ['bg', 'shadow', 'text', 'border', 'ring'],
-			colors = radixColors
+			colors = radixColors,
+			debug = false
 		} = options
 
 		const utilities = Object.keys( colors )
@@ -58,6 +60,11 @@ export const plugin = twPlugin.withOptions<Options>( ( options = {} ) =>
 					...colorStyles
 				}
 			}, {} )
+
+
+		if ( debug ) {
+			console.debug(utilities)
+		}
 
 		addUtilities( utilities )
 	}
