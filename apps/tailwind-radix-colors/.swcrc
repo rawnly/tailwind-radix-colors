@@ -10,7 +10,8 @@
 			"syntax": "typescript",
 			"tsx": false,
 			"decorators": true,
-			"dynamicImport": true
+			"dynamicImport": true,
+			"dts": true
 		}
 	}
 }
