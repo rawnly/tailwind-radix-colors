@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "build": "swc src -d dist",
+    "prebuild": "rm -rf dist && npm run typecheck",
+    "typecheck": "tsc --noEmit",
     "test": "jest",
     "prepublish": "npm run test && npm run build"
   },

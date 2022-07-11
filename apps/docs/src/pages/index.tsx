@@ -44,6 +44,7 @@ const Page: NextPage<PageProps> = _ => {
 						It also provides dynamic utilities for dark-colors.
 					</p>
 					<div className="mt-5 max-w-md mx-auto grid grid-cols-2 gap-4 md:mt-8">
+            <h1 className='rx-text-primary-11'>ciao</h1>
 						<Button
 							size='xl'
 							variant='light'

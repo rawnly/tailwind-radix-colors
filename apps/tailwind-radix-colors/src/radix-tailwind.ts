@@ -2,19 +2,24 @@ import { toTailwindColors } from './lib/format'
 import twPlugin from 'tailwindcss/plugin'
 import * as radixColors from '@radix-ui/colors'
 
-export const colors = toTailwindColors( radixColors )
+export const colors : ColorType = toTailwindColors( radixColors )
 
-type ColorType = {
+export type ColorType = {
 	[color: string]: Record<string, string>
 } & {
 	[color: `${string}Dark`]: Record<string, string>
 }
 
-type Options = {
+export type Options = {
 	prefix?: string
 	properties?: string[]
-	colors: ColorType;
+	colors?: ColorType;
 }
+
+export const createAlias = (name: string, color: keyof ColorType) => ({
+  [name]: colors[color as keyof typeof colors],
+  [`${name}Dark`]: colors[`${color}Dark` as keyof typeof colors]
+})
 
 export const plugin = twPlugin.withOptions<Options>( ( options = {} ) =>
 	( { addUtilities, e, theme } ) => {

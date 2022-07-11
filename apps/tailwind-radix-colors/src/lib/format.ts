@@ -14,7 +14,7 @@ export const toTailwindColor = ( color: RadixColor ) =>
 				...acc,
 				[k]: value.startsWith( 'hsl' ) ? hslToHex( value ) : value,
 			};
-		}, {} );
+		}, {} as Record<string, string> );
 
 
 export const toTailwindColors = ( colors: RadixColors ) => Object
