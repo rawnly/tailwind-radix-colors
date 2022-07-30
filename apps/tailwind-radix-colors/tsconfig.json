@@ -6,7 +6,7 @@
 	  "declaration": true,
 	  "resolveJsonModule": true,
 	  "sourceMap": true,
-	  "module": "ESNext",
+	  "module": "CommonJS",
 	  "moduleResolution": "Node",
 	  "skipLibCheck": true,
 	  "incremental": true,
