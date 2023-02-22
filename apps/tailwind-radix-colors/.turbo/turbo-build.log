@@ -1,3 +1,4 @@
-[35mtailwind-radix-colors:build[0m: cache hit, replaying output [2m6ca8528a587d2488[0m
-[35mtailwind-radix-colors:build: [0m$ swc src -d dist
-[35mtailwind-radix-colors:build: [0mSuccessfully compiled: 4 files with swc (24.08ms)
+
+> tailwind-radix-colors@0.0.10 build /Users/federicovitale/Developer/NODE/tailwind-radix-colors/apps/tailwind-radix-colors
+> tsc
+

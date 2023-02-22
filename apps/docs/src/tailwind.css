@@ -3,7 +3,8 @@
 @tailwind variants;
 @tailwind components;
 
-
-a {
-	@apply underline rx-text-lime-11;
+@layer base {
+  a {
+    @apply underline rx-text-lime-11;
+  }
 }
