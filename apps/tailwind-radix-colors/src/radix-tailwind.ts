@@ -66,7 +66,12 @@ export const plugin = twPlugin.withOptions<Options>(
 
                 return {
                   ...acc,
-                  [`.${invertPrefix} ${key}`]: {
+                  [`.${key}`]: {
+                    [`@apply ${prop}-[${strip(
+                      color.light
+                    )}] dark:${prop}-[${strip(color.dark)}]`]: {},
+                  },
+                  [`.${invertPrefix} .${key}`]: {
                     [`@apply ${prop}-[${strip(
                       color.dark
                     )}] dark:${prop}-[${strip(color.light)}]`]: {},
@@ -75,11 +80,6 @@ export const plugin = twPlugin.withOptions<Options>(
                     [`@apply ${prop}-[${strip(
                       color.dark
                     )}] dark:${prop}-[${strip(color.light)}]`]: {},
-                  },
-                  [`.${key}`]: {
-                    [`@apply ${prop}-[${strip(
-                      color.light
-                    )}] dark:${prop}-[${strip(color.dark)}]`]: {},
                   },
                 };
               }, {});

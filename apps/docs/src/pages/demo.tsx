@@ -5,8 +5,8 @@ interface PageProps {}
 
 const Page: NextPage<PageProps> = (props) => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center rx-bg-neutral-1 rx-text-neutral-11">
-      <h1 className="text-3xl font-bold uppercase invert:rx-text-neutral-12">
+    <div className="rx-invert w-screen h-screen flex items-center justify-center rx-bg-neutral-1 rx-text-neutral-11">
+      <h1 className="text-3xl font-bold uppercase rx-text-neutral-12">
         Hello World
       </h1>
     </div>
